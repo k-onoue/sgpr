@@ -1,6 +1,6 @@
 import torch
-from misc_utils import safe_log as log
-from misc_utils import safe_exp as exp
+from .misc_utils import safe_log as log
+from .misc_utils import safe_exp as exp
 # from misc_utils import safe_sqrt as sqrt
 
 import numpy as np

@@ -1,6 +1,6 @@
 import torch
 from torch import linalg
-from misc_utils import safe_exp
+from .misc_utils import safe_exp
 
 
 def cholesky_decomposition(matrix, max_tries=5):
